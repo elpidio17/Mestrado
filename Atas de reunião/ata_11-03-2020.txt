@@ -1,0 +1,20 @@
+Reuniao 11 de março de 2020
+
+Pontos discutidos (tarefas):
+1. Elpidio conseguiu uma planilha no site da xilinx aue permite estimar consumo de energia do chip FPGA.
+	- Com 100% de uso o chip Zynq 7007S consome aprox. 1.8W
+2. Elpidio fez uma proposta a nivel de sistema baseada em tres camadas (Minized + circuito RF e baterias + Antenas)
+3. Foram levantados alguns papers em diversos dominios de aplicação (RFID, IoT em 5G baseado em PAPR) onde sao usados FPGAs.
+
+
+Atividades a serem realizadas:
+1. Fazer um quadro resumo sobre as técnicas encontradas nos papers. 
+	- Autor ano, aplicação/técnica(s), plataforma (uC, uP, FPGA), o que foi implementado e como?, principais resultados.
+	- O como foi implementado: arquitetura, representacao aritmetica (fixed-point ou floating-point), quantos bits, qual freq do clock, consumo de recursos (LUTs, FFs, DSPs, BRAMs?)	
+2. Sobre estimação de consumo: tentar usar a planilha ligando funcionalidades do PS para aliviar o consumo.
+3. Levantar proposta para estimar consumo da placa minized, quais experimentos serao realizados e como?
+4. Entrar em www.trenz-electronic.de/ e verificar custo das placas zynq.
+5. Cria repositorio no gitlab e organizar pastas. Colocar papers.
+
+Proxima reunião:
+1. 25 de março de 2020, 14 horas, definir local via whastapp.
