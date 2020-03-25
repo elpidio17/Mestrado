@@ -1,2 +1,2 @@
 # Mestrado
-Documentação do mestrado
+Repositório do mestrado
